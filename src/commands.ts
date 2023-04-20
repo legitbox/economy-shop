@@ -6,7 +6,7 @@ import { ShopForm } from ".";
 import { SellMain } from "./sell";
 import { send } from "./utils/message";
 
-command.register("shopui", "Open shopui.")
+command.register("shop", "Open the shop ui.")
 .overload((p, o) => {
     const actor = o.getEntity();
     if (!actor) {
